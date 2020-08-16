@@ -1,6 +1,7 @@
 module.exports = {
   title: "LongTean 's blog",
   description: 'together',
+  base: '/alog/',
   theme: 'medium', // OR shortcut: @vuepress/blog
   themeConfig: {
     /**
