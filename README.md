@@ -1,12 +1,2 @@
 # alog
-
-> 
-
-## Development
-
-```bash
-yarn dev
-yarn build
-```
-
-
+blog's brother
