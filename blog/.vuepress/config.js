@@ -2,7 +2,7 @@ module.exports = {
   title: "LongTean 's blog",
   description: 'together',
   base: '/alog/',
-  theme: 'medium', // OR shortcut: @vuepress/blog
+  theme: require.resolve("../../theme/vuepress-theme-medium/index.js"), // OR shortcut: @vuepress/blog
   themeConfig: {
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/#modifyblogpluginoptions
@@ -30,20 +30,16 @@ module.exports = {
       contact: [
         {
           type: 'github',
-          link: 'https://github.com/ulivz',
-        },
-        {
-          type: 'twitter',
-          link: 'https://twitter.com/_ulivz',
-        },
+          link: 'https://github.com/longmimi',
+        }
       ],
       copyright: [
         {
-          text: 'Privacy Policy',
-          link: 'https://policies.google.com/privacy?hl=en-US',
+          text: 'LongTean ',
+          link: 'https://github.com/longmimi',
         },
         {
-          text: 'MIT Licensed | Copyright © 2018-present Vue.js',
+          text: 'Copyright © 2017-present ',
           link: '',
         },
       ],
