@@ -2,7 +2,7 @@ module.exports = {
   title: "LongTean 's blog",
   description: 'together',
   base: '/alog/',
-  theme: require.resolve("../../theme/vuepress-theme-medium/index.js"), // OR shortcut: @vuepress/blog
+  theme: require.resolve('../../theme/vuepress-theme-medium/index'), // OR shortcut: @vuepress/blog
   themeConfig: {
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/#modifyblogpluginoptions
